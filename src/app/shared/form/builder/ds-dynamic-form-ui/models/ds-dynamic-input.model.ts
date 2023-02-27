@@ -66,7 +66,7 @@ export class DsDynamicInputModel extends DynamicInputModel {
 
     this.language = config.language;
     if (!this.language) {
-      // Onebox
+      // Onebox comment
       if (config.value instanceof FormFieldMetadataValueObject) {
         this.language = config.value.language;
       } else if (Array.isArray(config.value)) {
